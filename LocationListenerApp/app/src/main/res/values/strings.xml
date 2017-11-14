@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GauchoSafe</string>
+    <string name="update_interval_sec">Update Interval (sec)</string>
+    <string name="service_disabled">Disabled</string>
+    <string name="service_enabled">Enabled</string>
+    <string name="notification_title">LocationService Running . . .</string>
+    <string name="gps_off">No Location Access</string>
+    <string name="netword_not_available">No Internet Access</string>
+    <string name="shake_service_disabled">Shake service disabled</string>
+    <string name="shake_service_enabled">Shake service enabled</string>
+    <string name="title_activity_map">Map</string>
+    <string name="loading">loading</string>
+    <string name="submit">Submit</string>
+    <string name="done">Done</string>
+
+</resources>

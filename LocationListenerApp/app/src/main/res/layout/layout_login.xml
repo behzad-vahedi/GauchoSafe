@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:id="@+id/scrollview"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Email"
+            style="@style/FormLabels"/>
+
+        <EditText
+            style="@style/FormInputs"
+            android:id="@+id/input_email"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:text="Password"
+            style="@style/FormLabels"/>
+
+        <EditText
+            android:id="@+id/input_password"
+            android:inputType="textPassword"
+            style="@style/FormInputs" />
+
+        <ProgressBar
+            android:id="@+id/pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleSmall"
+            android:visibility="invisible"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:text="Login"
+            style="@style/FormButtons"/>
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
