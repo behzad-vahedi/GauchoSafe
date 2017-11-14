@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+.wrap {
+    width: 352px;
+}
+
+.wrap table {
+    width: 300px;
+    table-layout: fixed;
+}
+
+table tr td {
+    padding: 5px;
+    border: 1px solid #eee;
+    width: 100px;
+    word-wrap: break-word;
+}
+
+table.head tr td {
+    background: #eee;
+}
+
+.inner_table {
+    height: 100px;
+    overflow-y: auto;
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+    <table class="head">
+        <tr>
+            <td>Head 1</td>
+            <td>Head 1</td>
+            <td>Head 1</td>
+        </tr>
+    </table>
+    <div class="inner_table">
+        <table>
+        <tr>
+            <td>Body 1</td>
+            <td>Body 1</td>
+            <td>Body 1</td>
+        </tr>
+        <!-- Some more tr's -->
+    </table>
+    </div>
+</div>
+</body>
+</html>

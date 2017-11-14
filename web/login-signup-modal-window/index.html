@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Gem style -->
+	<link rel="stylesheet" href="css/w3.css"> 
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Log In &amp; Sign Up Form</title>
+</head>
+<body>
+	<header role="banner">
+		<!-- <div id="cd-logo"><a href="#0"><img src="img/logo.svg" alt="Logo"></a></div> -->
+
+
+		<nav class="main-nav">
+			<ul>
+				<!-- inser more links here -->
+				<li><a class="cd-signin" href="#0">Sign in</a></li>
+				<li><a class="cd-signup" href="#0">Sign up</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
+		<div class="cd-user-modal-container"> <!-- this is the container wrapper -->
+			<ul class="cd-switcher">
+				<li><a href="#0">Sign in</a></li>
+				<li><a href="#0">New account</a></li>
+			</ul>
+
+			<div id="cd-login"> <!-- log in form -->
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="signin-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-password" for="signin-password">Password</label>
+						<input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="Password">
+						<a href="#0" class="hide-password">Hide</a>
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<input type="checkbox" id="remember-me" checked>
+						<label for="remember-me">Remember me</label>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width" type="submit" value="Login">
+					</p>
+				</form>
+				
+				<p class="cd-form-bottom-message"><a href="#0">Forgot your password?</a></p>
+				<!-- <a href="#0" class="cd-close-form">Close</a> -->
+			</div> <!-- cd-login -->
+
+			<div id="cd-signup"> <!-- sign up form -->
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-username" for="signup-username">Username</label>
+						<input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="signup-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-password" for="signup-password">Password</label>
+						<input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="Password">
+						<a href="#0" class="hide-password">Hide</a>
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<input type="checkbox" id="accept-terms">
+						<label for="accept-terms">I agree to the <a href="#0">Terms</a></label>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Create account">
+					</p>
+				</form>
+
+				<!-- <a href="#0" class="cd-close-form">Close</a> -->
+			</div> <!-- cd-signup -->
+
+			<div id="cd-reset-password"> <!-- reset password form -->
+				<p class="cd-form-message">Lost your password? Please enter your email address. You will receive a link to create a new password.</p>
+
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="reset-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Reset password">
+					</p>
+				</form>
+
+				<p class="cd-form-bottom-message"><a href="#0">Back to log-in</a></p>
+			</div> <!-- cd-reset-password -->
+			<a href="#0" class="cd-close-form">Close</a>
+		</div> <!-- cd-user-modal-container -->
+	</div> <!-- cd-user-modal -->
+
+	<!-- Navbar -->
+	<div class="w3-top">
+	  <div class="w3-bar w3-yellow w3-card-2">
+	    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+	    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+	    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LOCATION REPORTS</a>
+	    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+	    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+	    
+	  </div>
+	</div>
+
+	<!-- Navbar on small screens -->
+	<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+	  <a href="#band" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+	  <a href="#tour" class="w3-bar-item w3-button w3-padding-large">LOCATION REPORTS</a>
+	  <a href="#contact" class="w3-bar-item w3-button w3-padding-large">ABOUT US</a>
+	  <a href="#" class="w3-bar-item w3-button w3-padding-large">CONTACT</a>
+	</div>
+
+	<div class="w3-blue behzad-header">
+		 <img src="img/logo.png" align="right">
+		 <p class="w3-xlarge w3-center" >
+		  Welcome to GauchoSafe
+		</p>
+	</div>
+
+
+	<!-- Right pane -->
+	    <div class="behzad-menu w3-yellow behzad-login-pane">
+        <p class="w3-medium">If you want to see a report of the location information submitted by GauchoSafe Android app users, please register.
+        Login if you have already registered.</p>
+        <!-- <fieldset>
+            <legend> REGISTER </legend>
+            <form name="register" action="inc/php/register.php" method="post">
+                <input name="fname" type="text" placeholder="first name" required=""><br>
+                <input name="lname" type="text" placeholder="last name" required=""><br>
+                <input name="uname" type="text" placeholder="user name" required=""><br>
+                <input name="upassword" type="password" placeholder="password" required=""><br>
+                <input name="submit" type="submit">
+            </form>
+        </fieldset>
+
+        <fieldset style="margin-top:20px">
+            <legend> LOGIN </legend>
+            <form name="login" action="inc/php/login.php" method="post">
+                <input name="uname" type="text" placeholder="user name"><br>
+                <input name="upassword" type="password" placeholder="password"><br>
+                <input name="submit" type="submit">
+            </form>
+        </fieldset> -->
+
+   
+        <!-- <input type="button" value="Show Location Reports" onclick="openWin()" style="margin-top:10px" > -->
+        
+        <button class="w3-button w3-blue w3-margin-bottom">Login / Register</button>
+    
+        <button class="w3-button w3-blue w3-margin-bottom" onclick="document.getElementById('id01').style.display='block'">Show Location Reports</button>
+
+    </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/main.js"></script> <!-- Gem jQuery -->
+</body>
+</html>

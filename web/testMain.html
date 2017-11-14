@@ -1,0 +1,54 @@
+<!DOCTYPE html> <!-- The new doctype -->
+<html>
+    <head>
+      <link type="text/css" href="mainStyle.css" rel="stylesheet" />
+
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.1.0/dist/leaflet.css"
+  integrity="sha512-wcw6ts8Anuw10Mzh9Ytw4pylW8+NAD4ch3lqm9lzAsTxg0GFeJgoAtxuCLREZSC5lUXdVyo/7yfsqFjQ4S+aKw=="
+  crossorigin=""/>
+      <script src="https://unpkg.com/leaflet@1.1.0/dist/leaflet.js"
+ integrity="sha512-mNqn2Wg7tSToJhvHcqfzLMU6J4mkOImSPTxVZAdo+lcPlk+GhZmYgACEe0x35K7YzW1zJ7XyJV/TT1MrdXvMcA=="
+ crossorigin=""></script>
+</head>
+
+<body>
+
+
+
+  <section id="page"> <!-- Defining the #page section with the section tag -->
+
+        <header> <!-- Defining the header section of the page with the appropriate tag -->
+
+            <hgroup>
+                <h1>Behzad Vahedi</h1>
+                <h3>PhD student in GIScience, Univerity of California Santa Barbara/h3>
+            </hgroup>
+            <div>
+            <nav class="clear"> <!-- The nav link semantically marks your main site navigation -->
+                <ul>
+                    <li><a href="#article1">About</a></li>
+                    <li><a href="#article2">Education</a></li>
+                    <li><a href="#article3">Publications</a></li>
+                    <li><a href="#article4">Teaching</a></li>
+                    <li><a href="#article5">Miscellenia</a></li>
+                </ul>
+            </nav>
+          </div>
+
+        </header>
+
+
+<div id="mapid"> </div>
+
+
+  <script>
+    var mymap = L.map('mapid').setView([35.700832, 51.391039], 13);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+      attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+      maxZoom: 18,
+      id: 'mapbox.streets',
+      accessToken: 'pk.eyJ1IjoiYmVoemFkNjkiLCJhIjoiY2o0dWdkMXNjMGlqYzJxbmtybjhpeDIwaiJ9.uZHldoajwXmg-Fus9ViAsw'
+  }).addTo(mymap);
+  </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+<html>
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to GauchoSafe</title>
+    <meta name="description" content="GauchoSafe is a platform for UCSB students and Isla Vista ">
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  -->
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/ui-lightness/jquery-ui.css">
+     
+
+
+
+
+
+</head>
+<body >
+
+    <script src="jquery.js">
+    $(document).ready(function() { 
+     var dlg=$("#register").dialog({
+         title: 'Register for LifeStor',
+         resizable: true,
+         autoOpen:false,
+         modal: true,
+         hide: 'fade',
+         width:350,
+         height:275
+      });
+      
+    
+      $("#reg_link").click(function(e) {
+          dlg.html('Page loaded');
+          e.preventDefault();
+          dlg.dialog('open');
+      }); 
+}); 
+</script>
+
+<a href="#" id="reg_link">Sign-Up!</a>
+<div id="register">test</div>
+
+
+</body>
+</html>

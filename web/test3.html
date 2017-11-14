@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+
+
+    <script src="jquery.js">
+    $(document).ready(function() { 
+     var dlg=$("#register").dialog({
+         title: 'Register for LifeStor',
+         resizable: true,
+         autoOpen:false,
+         modal: true,
+         hide: 'fade',
+         width:350,
+         height:275
+      });
+      
+    
+      $("#reg_link").click(function(e) {
+          dlg.html('Page loaded');
+          e.preventDefault();
+          dlg.dialog('open');
+      }); 
+}); 
+</script>
+
+
+</head>
+<body>
+    <a href="http://jquery.com/">jQuery</a>
+    <script src="jquery.js"></script>
+    <script>
+ 
+    $( document ).ready(function() {
+        $( "a" ).click(function( event ) {
+            alert( "The link will no longer take you to jquery.com" );
+            event.preventDefault();
+        });
+    });
+ 
+    </script>
+
+
+    <a href="#" id="reg_link">Sign-Up!</a>
+<div id="register">test</div>
+
+
+</body>
+</html>
