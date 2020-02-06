@@ -2,8 +2,9 @@
 
 <snippet>
   <content>
-    ## Installation
-    A location-based service for UCSB students to covertly report danger and ask for help simply by shaking their cell phone. Developed for STKO Lab at UCSB, this project has two separate components, an Android App and a Web portal.
+    <h2>Installation</h2>
+    
+A location-based service for UCSB students to covertly report danger and ask for help simply by shaking their cell phone. Developed for STKO Lab at UCSB, this project has two separate components, an Android App and a Web portal.
 
 Users can trigger the app by shaking their phone when they feel unsafe, and the app will report their location anonymously to campus officials or UCSB police department. A neural network was deployed to detect shakes from normal movement.
 
