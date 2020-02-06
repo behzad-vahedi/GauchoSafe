@@ -1,4 +1,4 @@
-   <h1>GauchSafe</h1> 
+<h1>GauchSafe</h1> 
     
     
 A location-based service for UCSB students to covertly report danger and ask for help simply by shaking their cell phone. Developed for STKO Lab at UCSB, this project has two separate components, an Android App and a Web portal.
@@ -15,13 +15,10 @@ In the web portal, the location data submitted by users are used to create a hea
 * Technology Used:
    * Android
    * Python (Scikit-learn)
-   
-   
-,</br>
-HTML,</br>
-CSS,</br>
-PHP,</br>
-Leaflet.js
+   * HTML
+   * CSS
+   * PHP
+   * Leaflet.js
 
 <h2>Installation</h2>
 To get in running, you need to: 
