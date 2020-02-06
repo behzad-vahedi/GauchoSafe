@@ -1,8 +1,8 @@
-#GauchoSafe
+<h1>GauchSafe</h1>
 
 <snippet>
   <content>
-    <h2>Installation</h2>
+<h2>Description</h2>
     
 A location-based service for UCSB students to covertly report danger and ask for help simply by shaking their cell phone. Developed for STKO Lab at UCSB, this project has two separate components, an Android App and a Web portal.
 
@@ -17,6 +17,10 @@ HTML,
 CSS,
 PHP,
 Leaflet.js
+
+<h2>Installation</h2>
+
+
     </content>
   <tabTrigger>readme</tabTrigger>
 </snippet>
