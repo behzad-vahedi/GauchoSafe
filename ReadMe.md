@@ -1,25 +1,21 @@
 #GauchoSafe
 
 <snippet>
-  <content><![CDATA[
-# ${1:GauchoSafe}
-TODO: Write a project description
-## Installation
-TODO: Describe the installation process
-## Usage
-TODO: Write usage instructions
-## Contributing
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-## History
-TODO: Write history
-## Credits
-TODO: Write credits
-## License
-TODO: Write license
-]]></content>
+  <content>
+    ## Installation
+    A location-based service for UCSB students to covertly report danger and ask for help simply by shaking their cell phone. Developed for STKO Lab at UCSB, this project has two separate components, an Android App and a Web portal.
+
+Users can trigger the app by shaking their phone when they feel unsafe, and the app will report their location anonymously to campus officials or UCSB police department. A neural network was deployed to detect shakes from normal movement.
+
+In the web portal, the location data submitted by users are used to create a heat map of unsafe locations so that officials can take propoer measures in those areas.
+
+• Technology Used:
+Android,
+Python (Scikit-learn)
+HTML,
+CSS,
+PHP,
+Leaflet.js
+    </content>
   <tabTrigger>readme</tabTrigger>
 </snippet>
