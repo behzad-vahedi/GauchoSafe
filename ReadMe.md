@@ -12,10 +12,12 @@ In the web portal, the location data submitted by users are used to create a hea
 
 ![Web Portal](https://github.com/behzad-vahedi/GauchoSafe/blob/master/images/GauchoSafe-web.png)
 
-• Technology Used:
-
-Android,</br>
-Python (Scikit-learn),</br>
+* Technology Used:
+   * Android
+   * Python (Scikit-learn)
+   
+   
+,</br>
 HTML,</br>
 CSS,</br>
 PHP,</br>
