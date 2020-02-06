@@ -10,6 +10,8 @@ Users can trigger the app by shaking their phone when they feel unsafe, and the 
 
 In the web portal, the location data submitted by users are used to create a heat map of unsafe locations so that officials can take propoer measures in those areas.
 
+![Web Portal](https://github.com/behzad-vahedi/GauchoSafe/blob/master/images/GauchoSafe-web.png)
+
 • Technology Used:
 
 Android,</br>
