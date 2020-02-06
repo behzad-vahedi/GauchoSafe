@@ -11,14 +11,24 @@ Users can trigger the app by shaking their phone when they feel unsafe, and the 
 In the web portal, the location data submitted by users are used to create a heat map of unsafe locations so that officials can take propoer measures in those areas.
 
 • Technology Used:
-Android,
-Python (Scikit-learn)
-HTML,
-CSS,
-PHP,
+
+Android,</br>
+Python (Scikit-learn),</br>
+HTML,</br>
+CSS,</br>
+PHP,</br>
 Leaflet.js
 
 <h2>Installation</h2>
+To get in running, you need to: 
+
+in Server folder
+- Create a Mysql database using db.sql file (in sql folder).
+- Modify config.php in folder web, and set the database info in it.
+- Modify db.php in v1 folder and set your database info there.
+
+In Android folder
+- Modify Confing.java and set the base_url variable to your server location (or localhost).
 
 
     </content>
